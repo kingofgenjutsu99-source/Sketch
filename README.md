@@ -6,53 +6,58 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f9f9f9;
+      background: orange;
       text-align: center;
-      padding: 20px;
+      padding: 30px;
+      margin: 0;
     }
     h1 {
-      color: #333;
+      color: white;
+      margin-bottom: 40px;
     }
     .shoe-card {
-      display: inline-block;
       background: white;
       border-radius: 10px;
-      padding: 10px;
-      margin: 15px;
-      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      width: 250px;
+      margin: 20px auto;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-    .shoe-card img {
-      width: 200px;
-      border-radius: 10px;
+    .shoe-image {
+      width: 100%;
+      height: 150px;
+      background: #ddd;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #555;
+      font-weight: bold;
     }
-    .colors {
-      margin-top: 10px;
+    .price {
+      font-weight: bold;
+      color: #333;
     }
-    .color {
-      display: inline-block;
-      width: 25px;
-      height: 25px;
-      border-radius: 50%;
-      margin: 0 5px;
-      border: 2px solid #ccc;
-      cursor: pointer;
-    }
-    .orange { background: orange; }
-    .black { background: black; }
-    .white { background: white; border: 2px solid #333; }
   </style>
 </head>
 <body>
 
-  <h1>Shardex Shoes</h1>
+  <h1>Sketch Shoes</h1>
 
   <div class="shoe-card">
-    <img src="https://via.placeholder.com/200x150?text=Shoe" alt="Shoe">
-    <div class="colors">
-      <div class="color orange"></div>
-      <div class="color black"></div>
-      <div class="color white"></div>
-    </div>
+    <div class="shoe-image">Shoe 1</div>
+    <div class="price">$4</div>
+  </div>
+
+  <div class="shoe-card">
+    <div class="shoe-image">Shoe 2</div>
+    <div class="price">$4</div>
+  </div>
+
+  <div class="shoe-card">
+    <div class="shoe-image">Shoe 3</div>
+    <div class="price">$4</div>
   </div>
 
 </body>
