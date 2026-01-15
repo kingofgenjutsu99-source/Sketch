@@ -1,7 +1,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Sketch Styles</title>
+<title>𝓼𝓴𝓮𝓽𝓬𝓱 𝓼𝓽𝔂𝓵𝓮</title>
 
 <style>
 *{
