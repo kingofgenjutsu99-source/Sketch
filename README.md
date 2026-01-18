@@ -1,4 +1,3 @@
-<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,16 +9,19 @@
       box-sizing: border-box;
       font-family: Arial, Helvetica, sans-serif;
     }body {
-  height: 100vh;
+  min-height: 100vh;
   background: #000;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
+  padding: 0;
 }
 
 .container {
   text-align: center;
+  width: 100%;
+  max-width: 360px; /* mobile centered */
 }
 
 .add-bot-btn {
