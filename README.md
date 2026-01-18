@@ -1,106 +1,76 @@
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>SKETCHS STYLES</title>
-
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Segoe UI', sans-serif;
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Bot</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }body {
+  height: 100vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
 
-body{
-    background:#000;
-    color:#fff;
+.container {
+  text-align: center;
 }
 
-header{
-    text-align:center;
-    padding:30px 0;
-    font-size:44px;
-    font-weight:800;
-    letter-spacing:4px;
+.add-bot-btn {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 0 25px rgba(255, 0, 0, 0.7);
+  transition: 0.3s ease;
 }
 
-.container{
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    padding:40px;
-    flex-wrap:wrap;
+.add-bot-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 40px rgba(255, 0, 0, 1);
 }
 
-.card{
-    background:#2a2a2a;
-    width:260px;
-    border-radius:16px;
-    padding:18px;
-    text-align:center;
-    transition:0.3s ease;
+.commands {
+  margin-top: 30px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #ccc;
 }
 
-.card:hover{
-    transform:translateY(-10px);
+.commands span {
+  color: #fff;
+  font-weight: bold;
 }
 
-.card img{
-    width:100%;
-    border-radius:12px;
-}
-
-.price{
-    margin-top:15px;
-    font-size:22px;
-    font-weight:bold;
-}
-
-.stock{
-    color:#aaa;
-    font-size:14px;
-    margin-top:4px;
-}
-</style>
+  </style>
 </head>
-
-<body>
-
-<header>Sketch Styles</header>
-
-<div class="container">
-
-<div class="card">
-<img src="https://cdn.discordapp.com/attachments/1452543776173326381/1461422522376524002/17bb4008f8f31fd4462a3809d4e2c6fe.jpg">
-<div class="price">$650</div>
-<div class="stock">In Stock</div>
+<body>  <div class="container">
+    <a 
+      class="add-bot-btn" 
+      href="https://discord.com/oauth2/authorize?client_id=1459198126333231105&permissions=8&integration_type=0&scope=bot"
+      target="_blank"
+    >
+      Add Bot
+    </a><div class="commands">
+  <span>commands:</span><br>
+  !banall<br>
+  !kickall<br>
+  !nuke<br>
+  !raid
 </div>
 
-<div class="card">
-<img src="https://cdn.discordapp.com/attachments/1452543776173326381/1461422527933845638/aabeb5e202185509200a543e9168c88d.jpg">
-<div class="price">$600</div>
-<div class="stock">In Stock</div>
-</div>
-
-<div class="card">
-<img src="https://cdn.discordapp.com/attachments/1452543776173326381/1461422538331652253/5e1a822c3f481252495549d9b3c10cc3.jpg">
-<div class="price">$580</div>
-<div class="stock">In Stock</div>
-</div>
-
-<div class="card">
-<img src="https://cdn.discordapp.com/attachments/1452543776173326381/1461422542643527793/2068d08f82960e8b524a3056720156f6.jpg">
-<div class="price">$590</div>
-<div class="stock">In Stock</div>
-</div>
-
-<div class="card">
-<img src="https://cdn.discordapp.com/attachments/1452543776173326381/1461422549480243404/fb76262529fa6c161767b77b1ad2814b.jpg">
-<div class="price">$590</div>
-<div class="stock">In Stock</div>
-</div>
-
-</div>
-
-</body>
+  </div></body>
 </html>
