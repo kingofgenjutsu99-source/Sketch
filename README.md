@@ -23,8 +23,8 @@
 }
 
 .add-bot-btn {
-  width: 140px;
-  height: 140px;
+  width: 96px; /* approx 1 inch */
+  height: 96px; /* approx 1 inch */
   border-radius: 50%;
   background: red;
   display: flex;
@@ -32,9 +32,9 @@
   align-items: center;
   text-decoration: none;
   color: #fff;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: bold;
-  box-shadow: 0 0 25px rgba(255, 0, 0, 0.7);
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
   transition: 0.3s ease;
 }
 
